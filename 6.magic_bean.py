@@ -48,6 +48,6 @@ class BST:
 T = BST()
 inp = [int(i) for i in input('Enter Input : ').split()]
 for i in inp:
-    T.insert(i)
-root = T.root
-T.printTree(root)
+    print(T.insert(i))
+# root = T.root
+# T.printTree(root)
