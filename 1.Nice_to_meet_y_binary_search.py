@@ -37,6 +37,7 @@ class BST:
             self.printTree(node.right, level + 1)
             print('     ' * level, node)
             self.printTree(node.left, level + 1)
+    
 
 T = BST()
 inp = [int(i) for i in input('Enter Input : ').split()]
